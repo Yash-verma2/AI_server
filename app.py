@@ -44,7 +44,4 @@ def chat():
         print(f"Error while processing the request: {e}")
         return jsonify({"error": "Error while processing the request", "details": str(e)}), 500
 
-if __name__ == '__main__':
-    # Run the Flask app, accessible on all interfaces at port 5001
-    chat_app.run(debug=True, host='0.0.0.0', port=5001)
-
+app = Flask(__name__)

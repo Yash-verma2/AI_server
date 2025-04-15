@@ -1,0 +1,16 @@
+Flask==2.2.5
+flask-cors==4.0.0
+transformers==4.39.3
+torch==2.2.2
+sentencepiece==0.2.0
+scikit-learn==1.4.2
+spacy==3.7.4
+huggingface-hub==0.29.3
+numpy==1.26.4              # Used for data handling or model processing
+Pillow==10.2.0             # If you're working with images
+nltk==3.8.1         
+sentence-transformers==2.6.1 # If you're using tokenization/stemming/lemmatization                                   
+gunicorn==21.2.0
+python-dotenv
+
+protobuf>=3.20.0
