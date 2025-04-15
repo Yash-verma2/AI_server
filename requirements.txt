@@ -12,5 +12,6 @@ nltk==3.8.1
 sentence-transformers==2.6.1 # If you're using tokenization/stemming/lemmatization                                   
 gunicorn==21.2.0
 python-dotenv
+google.generativeai
 
 protobuf>=3.20.0
